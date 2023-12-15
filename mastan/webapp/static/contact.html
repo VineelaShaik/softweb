@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <title>products</title>
+        <style>
+           
+            *{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+
+body{
+    background: linear-gradient(to right,lavender,rgb(239, 216, 220));
+
+}
+
+img{
+    height:70px;
+    margin-top:25px;
+    margin-left:35px;
+    mix-blend-mode: multiply;
+}
+.comp{
+  padding:30px;
+  font-family: 'Lucida Sans';
+  font-weight:bold;
+  font-size: large;
+}
+.nav{
+    width:400px;
+    height:100px;
+    display:flex;
+    top:25px;
+    
+}
+.list{
+    margin-left:160px;
+    display:flex;
+    
+}
+.item{
+    list-style:none; 
+    padding:40px;
+    font-family:Arial;
+    
+}
+.item:hover{
+    color:rgb(153, 18, 153); 
+    
+}
+.search{
+    margin-top:37px;
+    display:flex;
+    margin-left:30px
+}
+.es{
+    border:none;
+  background-color:  rgb(239, 216, 220);
+    height:28px;
+    width:200px; 
+    border-bottom:2px solid  rgb(153, 18, 153);  
+}
+.srh{
+    background-color:rgb(153, 18, 153);
+    width:120px;
+    height:28px;
+    border-bottom: none;
+    color:white;
+    border-radius:5px
+}
+footer{
+    margin-top: 370px;
+    background-color: lightsalmon;
+    position: fixed;
+    width:1500px;
+}
+.contact{
+    margin-top:-200px;
+    height: 0;
+    
+}
+.hrc{
+    margin-top:450;
+    border: 7px solid rgb(153, 18, 153) ;   
+}
+.cf{
+    display: flex;
+    border: 4px solid rgb(153, 18, 153);
+}
+.f1{
+    padding: 20px;
+    border: 4px solid rgb(153, 18, 153);
+}
+.f1 input,textarea{
+    margin:15px
+}
+.f1 input[type="submit"]{
+    width:80px;
+    background-color: rgb(49, 107, 243);
+    color:white;
+    border:none;
+    border-radius: 4px;
+    padding: 10px;
+}
+.text{
+    height: 30px;
+    width:650
+}
+.f2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 240;
+    
+}
+.f2 div{
+    padding: 7px;
+}
+
+
+ </style>
+    </head>
+    <body><div class="main">
+        <div class="nav">
+            <img src="logo.png"> 
+            <p class="comp">SHAVALT Solutions</p>
+           <ul class="list">
+            <a href=home.html><li class="item">HOME</li></a>
+            <a href=people.html><li class="item">PEOPLE</li></a>
+            <a href=product.html><li class="item">PRODUCTS</li></a>
+            <a href=contact.html><li class="item">CONTACTS</li></a>
+           </ul>
+           <div class="search">
+            <input class="es" type="text" placeholder="Enter to Search">
+           <input class="srh" type="button" value="Search">
+        </div>
+        </div>
+        <div class="contact">
+            <hr class="hrc">
+            <div class="cf">
+            <form class="f1">
+                <big><big>CONTACT US</big></big><br>
+                <input type="text" class="text" placeholder="Your Name"><br>
+                <input type="email"class="text" placeholder="Your Email"><br>
+                <textarea rows="5" cols="86"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+            <div class="f2">
+                <div><big><b>CONTACT&nbsp;&nbsp;INFORMATION</b></big></div><br>
+                <div > <b>Address:</b>123 Main Street ,Addanki ,Ongole </div>
+                <div><b>Email:</b>shavaltsolution@gmail.com</div>
+                <div><b>Phone:</b>044-0804</div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer align="center">Designed and Developed by &copy;Vineela Shaik</footer>
+</html>
